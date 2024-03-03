@@ -5,34 +5,34 @@ export default function Navbar()
 {
     return (
         <>
-        <nav class="max-w-full h-14 bg-zinc-900">
-        <div class="flex justify-between items-center px-10">
+        <nav class="max-w-full bg-zinc-900 bg-transparent py-3 px-8 flex justify-between items-center">
+        
             <Link to="/">
-            <img class="h-14 " src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709235940/media/logo_gorqjb.png"alt="logo"/>
+            <img class="h-14 " src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709488906/media/Aman_Raj_Gupta__4_-removebg-preview_1_lpomuh.png"alt="logo"/>
             </Link>
             <ul class="hidden md:flex mr-5 items-center gap-10 text-white justify-center font-bold">
-                <li className="hover:border border-white p-2">
-                <NavLink to="/" className={({isActive}) => `${isActive ? "text-blue-700" : "text-white"}` }>                  
+            <li className="hover:bg-[#6420AA] rounded-md p-2">
+                <NavLink to="/" className={({isActive}) => `${isActive ? "text-[#FCDC2A]" : "text-white"}` }>                  
                 <HomeIcon className='text-large'/>
                 </NavLink>
                 </li>
-                <li className="hover:border border-white p-2">
-                <NavLink to="/about" className={({isActive}) => `${isActive ? "text-blue-700" : "text-white"}` }>                  
+                <li className="hover:bg-[#6420AA] rounded-md p-2">
+                <NavLink to="/about" className={({isActive}) => `${isActive ? "text-[#FCDC2A]" : "text-white"}` }>                  
                 About me
                 </NavLink>
                 </li>                
-                <li className="hover:border border-white p-2">
-                <NavLink to="/contact" className={({isActive}) => `${isActive ? "text-blue-700" : "text-white"}` }>                  
+                <li className="hover:bg-[#6420AA] rounded-md p-2">
+                <NavLink to="/contact" className={({isActive}) => `${isActive ? "text-[#FCDC2A]" : "text-white"}` }>                  
                 Contact
                 </NavLink>
                 </li> 
-              <li className="hover:border border-white p-2"><a href="https://amanrajgupta.hashnode.dev/" target="_blank" rel="noopener noreferrer">Blogs<RssFeedIcon/></a></li>
+              <li className="hover:bg-[#6420AA] rounded-md p-2"><a href="https://amanrajgupta.hashnode.dev/" target="_blank" rel="noopener noreferrer">Blogs<RssFeedIcon/></a></li>
             
             </ul>
             <div class="md:hidden">
-            <a class="text-5xl font-bold text-white " href="#">&#8801;</a>
+            <button class="text-5xl font-bold text-white ">&#8801;</button>
             </div>
-        </div>
+        
         </nav>
         </>
     );
