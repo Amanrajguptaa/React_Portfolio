@@ -5,7 +5,7 @@ export default function Navbar()
 {
     return (
         <>
-        <nav class="max-w-full  py-3 px-8 flex justify-between items-center sticky top-0 z-50 bg-gray-800">
+        <nav class="max-w-full  py-3 px-8 flex justify-between items-center sticky top-0 z-50 bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-lg">
         
             <Link to="/">
             <img class="h-14 " src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709488906/media/Aman_Raj_Gupta__4_-removebg-preview_1_lpomuh.png"alt="logo"/>
