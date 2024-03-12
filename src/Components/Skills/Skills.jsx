@@ -25,7 +25,7 @@ export default function Skills(){
                     <img  src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709235940/media/react_logo_yqparm.png" alt=""/>    
                     <h5>REACT</h5>    
                 </div>
-                <div class="transition-all duration-400 hover:scale-110 relative h-32 w-32 p-4 flex flex-col justify-between items-center border border-blue-600 shadow-lg shadow-blue-500 rounded-md">
+                <div class="transition-all duration-400 hover:scale-110 relative h-32 w-32 p-3 flex flex-col justify-between items-center border border-blue-600 shadow-lg shadow-blue-500 rounded-md">
                     <img  src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709235939/media/c_logo_nik7jd.png" alt=""/>    
                     <h5>C LANGUAGE</h5>    
                 </div>
