@@ -41,7 +41,7 @@ export default function Skills(){
                     <img  src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1710133426/media/sql-1__1_-removebg-preview_1_1_zxligu.png" alt=""/>    
                     <h5 >SQL</h5>
                     </div>
-                <div class="transition-all duration-400 hover:scale-110 relative h-32 w-32 p-4 flex flex-col justify-between items-centerborder border-blue-600 shadow-lg shadow-blue-500 rounded-md">
+                <div class="transition-all duration-400 hover:scale-110 relative h-32 w-32 p-4 flex flex-col justify-between items-center border border-blue-600 shadow-lg shadow-blue-500 rounded-md">
                     <img  src="https://res.cloudinary.com/dkqbawsqm/image/upload/v1709235939/media/excel_logo_xefsil.png" alt=""/>    
                     <h5 >EXCEL</h5>    
                 </div>
