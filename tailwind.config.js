@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
     theme: {
-    extend: {},
+     extend: {
+      fontFamily:{
+        primaryRegular:['BOOMSTER'],
+        waterfall:['Waterfall','cursive'],
+      }
+    },
   },
   plugins: [],
 }
